@@ -3,6 +3,7 @@
  * Enum Class contains values for Standard Regular Expressions
  * @author jriley
  *
+ *
  */
 public enum StandardRegex {
 	

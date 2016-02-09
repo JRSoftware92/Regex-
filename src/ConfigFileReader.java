@@ -6,8 +6,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Class for reading Congif 
+ * Class for reading Config file
  * @author jriley
+ *
  *
  */
 public class ConfigFileReader {

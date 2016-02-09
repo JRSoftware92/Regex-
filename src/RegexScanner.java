@@ -12,6 +12,7 @@ import java.util.regex.Pattern;
  * Class for reading custom objects from a file into a unique, sorted array of strings.
  * @author jriley
  *
+ *
  */
 public class RegexScanner {
 	
