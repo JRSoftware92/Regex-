@@ -34,6 +34,11 @@ public class Config {
 		return instance;
 	}
 
+	/**
+	 * Retrieves a value from the Config File corresponding to the provided key
+	 * @param key - String key of the value to be retrieved
+	 * @return - String value of the parameter being retrieved
+	 */
 	public static String getValue(String key){
 		boolean exists = checkInstance();
 		if(exists){
@@ -51,6 +56,11 @@ public class Config {
 		}
 	}
 	
+	/**
+	 * Retrieves a String value from the Config File corresponding to the provided key
+	 * @param key - String key of the value to be retrieved
+	 * @return - String value of the parameter being retrieved
+	 */
 	public static String getStringValue(String key){
 		boolean exists = checkInstance();
 		if(exists){

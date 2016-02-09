@@ -20,9 +20,8 @@ public enum StandardRegex {
 	}
 	
 	public static String getRegexByName(String name){
-		if(name == null || name.length() < 1){
+		if(name == null || name.length() < 1)
 			return "";
-		}
 		
 		String result = name;
 		StandardRegex[] arr = StandardRegex.values();
